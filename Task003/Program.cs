@@ -7,7 +7,7 @@ int InputInt(string message)
     int result = Convert.ToInt32(inputedValie);
     return result;
 }
-int n = InputInt("Введите число максимально значение для массива");
+int n = InputInt("Введите максимально значение для массива");
 System.Console.WriteLine();
 int random()
 {
